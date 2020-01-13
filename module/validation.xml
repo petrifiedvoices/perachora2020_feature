@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ValidationSchema>
+  <ArchaeologicalElement name="Burial Mound">
+    <property name="Mound ID">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Type">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Landuse around Mound">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Landuse on top of Mound">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Mound prominence">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Facing Direction For Photo">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Height Max">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Width Max">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Length Max">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Diameter Max">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Sample Collected">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Condition">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Principal Source of Impact">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Archaeological potential">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Most recent damage what">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+    <property name="Most recent damage within">
+      <validator type="blankchecker">
+        <param type="field" value="vocab"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+  <ArchaeologicalElement name="GPS Location">
+    <property name="GPS Location ID">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Latitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Longitude">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Northing">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Easting">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+    <property name="Accuracy">
+      <validator type="blankchecker">
+        <param type="field" value="measure"/>
+      </validator>
+    </property>
+  </ArchaeologicalElement>
+</ValidationSchema>

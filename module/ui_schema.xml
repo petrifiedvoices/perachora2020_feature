@@ -1,0 +1,701 @@
+<?xml version='1.0' encoding='utf-8'?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:jr="http://openrosa.org/javarosa" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>FILL THIS IN</h:title>
+    <model>
+      <instance>
+        <faims id="FILL_THIS_IN">
+          <!--START: Style-->
+          <style>
+            <orientation>
+              <orientation/>
+            </orientation>
+            <even>
+              <layout_weight/>
+            </even>
+            <large>
+              <layout_weight/>
+            </large>
+          </style>
+          <!--END: Style-->
+          <User>
+            <User>
+              <User/>
+              <Log_in/>
+            </User>
+          </User>
+          <Start>
+            <Main>
+              <Create_new_Record/>
+              <Next_Mound_ID/>
+              <Next_GPS_Location_ID/>
+              <GPS_Diagnostics/>
+            </Main>
+            <Search>
+              <Colgroup_0>
+                <Col_0>
+                  <Search_Term/>
+                </Col_0>
+                <Col_1>
+                  <Search_Button/>
+                </Col_1>
+              </Colgroup_0>
+              <Colgroup_1>
+                <Col_0>
+                  <Entity_Types/>
+                </Col_0>
+                <Col_1>
+                  <Select_Author/>
+                </Col_1>
+              </Colgroup_1>
+              <Entity_List/>
+            </Search>
+            <Table>
+              <Select_Date/>
+              <Table/>
+            </Table>
+            <Map>
+              <Map/>
+              <Colgroup_1>
+                <Col_1>
+                  <Center_Me_1/>
+                </Col_1>
+                <Col_2>
+                  <Save_Map_Settings_1/>
+                </Col_2>
+              </Colgroup_1>
+              <Create_Shape/>
+            </Map>
+          </Start>
+          <Burial_Mound>
+            <General>
+              <Validate/>
+              <Mound_ID/>
+              <Date/>
+              <Burial_Mound_author/>
+              <Type/>
+              <Source/>
+              <Description_of_Mound_or_Locale/>
+              <Landuse_around_Mound/>
+              <Landuse_on_top_of_Mound/>
+              <Position_in_the_landscape/>
+              <Mound_prominence/>
+              <Colgroup_1>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_2>
+              <Take_From_GPS_1/>
+              <Handheld_GPS_point/>
+              <Elevation/>
+              <Facing_Direction_For_Photo/>
+              <Notes_and_Photo_ID/>
+              <Photo/>
+              <Photo_Button_1/>
+            </General>
+            <Additional_GPS>
+              <New_GPS_Location/>
+              <GPS_Location_List/>
+            </Additional_GPS>
+            <Dimensions>
+              <Colgroup_1>
+                <Col_1>
+                  <Height_Max/>
+                  <Width_Max/>
+                  <Length_Max/>
+                  <Diameter_Max/>
+                </Col_1>
+                <Col_2>
+                  <Height_Min/>
+                  <Width_Min/>
+                  <Length_Min/>
+                  <Diameter_Min/>
+                </Col_2>
+              </Colgroup_1>
+              <Additional_Dimension/>
+              <Other_Dimension/>
+              <Shape_Notes/>
+            </Dimensions>
+            <Material>
+              <Associated_Feature_or_Material/>
+              <Surface_Material_Description/>
+              <Sample_Collected/>
+              <Chronology_Estimate/>
+              <Associated_Feature_or_Material_Photo/>
+              <Associated_Feature_or_Material_Photo_Button_1/>
+            </Material>
+            <CRM>
+              <Condition/>
+              <Principal_Source_of_Impact/>
+              <Other_Sources_of_Impact/>
+              <Archaeological_potential/>
+              <Most_recent_damage_what/>
+              <Most_recent_damage_within/>
+              <RT_Description/>
+              <Comments_and_Recommendations/>
+              <CRM_Photos/>
+              <CRM_Photos_Button_1/>
+            </CRM>
+          </Burial_Mound>
+          <Shape>
+            <Shape_Note>
+              <Label/>
+              <Note/>
+            </Shape_Note>
+          </Shape>
+          <GPS_Location>
+            <GPS_Location_Information>
+              <Colgroup_1>
+                <Col_1>
+                  <GPS_Location_Mound_ID/>
+                </Col_1>
+                <Col_2>
+                  <GPS_Location_ID/>
+                </Col_2>
+              </Colgroup_1>
+              <Colgroup_2>
+                <Col_1>
+                  <Latitude/>
+                </Col_1>
+                <Col_2>
+                  <Longitude/>
+                </Col_2>
+              </Colgroup_2>
+              <Colgroup_3>
+                <Col_1>
+                  <Northing/>
+                </Col_1>
+                <Col_2>
+                  <Easting/>
+                </Col_2>
+                <Col_3>
+                  <Accuracy/>
+                </Col_3>
+              </Colgroup_3>
+              <Take_From_GPS_1/>
+            </GPS_Location_Information>
+          </GPS_Location>
+        </faims>
+      </instance>
+      <bind nodeset="/faims/Start/Main/Next_Mound_ID" type="decimal"/>
+      <bind nodeset="/faims/Start/Main/Next_GPS_Location_ID" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/General/Handheld_GPS_point" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/General/Elevation" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_1/Height_Max" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_1/Width_Max" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_1/Length_Max" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_1/Diameter_Max" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_2/Height_Min" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_2/Width_Min" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_2/Length_Min" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Colgroup_1/Col_2/Diameter_Min" type="decimal"/>
+      <bind nodeset="/faims/Burial_Mound/Dimensions/Additional_Dimension" type="decimal"/>
+    </model>
+  </h:head>
+  <h:body>
+    <!--START: Style-->
+    <group ref="style">
+      <label/>
+      <group ref="orientation">
+        <label/>
+        <input ref="orientation">
+          <label>horizontal</label>
+        </input>
+      </group>
+      <group ref="even">
+        <label/>
+        <input ref="layout_weight">
+          <label>1</label>
+        </input>
+      </group>
+      <group ref="large">
+        <label/>
+        <input ref="layout_weight">
+          <label>3</label>
+        </input>
+      </group>
+    </group>
+    <!--END: Style-->
+    <group ref="User">
+      <label>{User}</label>
+      <group ref="User" faims_scrollable="false">
+        <label>{User}</label>
+        <select1 ref="User">
+          <label>{User}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <trigger ref="Log_in">
+          <label>{Log_in}</label>
+        </trigger>
+      </group>
+    </group>
+    <group ref="Start">
+      <label>{Start}</label>
+      <group ref="Main">
+        <label>{Main}</label>
+        <trigger ref="Create_new_Record">
+          <label>{Create_new_Record}</label>
+        </trigger>
+        <input ref="Next_Mound_ID" faims_style_class="required">
+          <label>{Next_Mound_ID}</label>
+        </input>
+        <input ref="Next_GPS_Location_ID" faims_style_class="required">
+          <label>{Next_GPS_Location_ID}</label>
+        </input>
+        <input faims_read_only="true" ref="GPS_Diagnostics">
+          <label>{GPS_Diagnostics}</label>
+        </input>
+      </group>
+      <group ref="Search" faims_scrollable="false">
+        <label>{Search}</label>
+        <group ref="Colgroup_0" faims_style="orientation">
+          <label/>
+          <group ref="Col_0" faims_style="even">
+            <label/>
+            <input ref="Search_Term">
+              <label>{Search_Term}</label>
+            </input>
+          </group>
+          <group ref="Col_1" faims_style="large">
+            <label/>
+            <trigger ref="Search_Button">
+              <label>{Search}</label>
+            </trigger>
+          </group>
+        </group>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_0" faims_style="even">
+            <label/>
+            <select1 ref="Entity_Types">
+              <label>{Entity_Types}</label>
+              <item>
+                <label>Options not loaded</label>
+                <value>Options not loaded</value>
+              </item>
+            </select1>
+          </group>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <select1 ref="Select_Author">
+              <label>{Select_Author}</label>
+              <item>
+                <label>Options not loaded</label>
+                <value>Options not loaded</value>
+              </item>
+            </select1>
+          </group>
+        </group>
+        <select1 appearance="compact" ref="Entity_List">
+          <label>{Entity_List}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Table" faims_scrollable="false">
+        <label>{Table}</label>
+        <select1 ref="Select_Date">
+          <label>{Select_Date}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_table="true" ref="Table">
+          <label>{Table}</label>
+        </input>
+      </group>
+      <group ref="Map" faims_scrollable="false">
+        <label>{Map}</label>
+        <input faims_map="true" ref="Map">
+          <label>{Map}</label>
+        </input>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <trigger ref="Center_Me_1">
+              <label>{Center_Me}</label>
+            </trigger>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <trigger ref="Save_Map_Settings_1">
+              <label>{Save_Map_Settings}</label>
+            </trigger>
+          </group>
+        </group>
+        <trigger ref="Create_Shape">
+          <label>{Create_Shape}</label>
+        </trigger>
+      </group>
+    </group>
+    <group ref="Burial_Mound" faims_archent_type="Burial Mound">
+      <label>{Burial_Mound}</label>
+      <group ref="General">
+        <label>{General}</label>
+        <trigger ref="Validate">
+          <label>{Validate}</label>
+        </trigger>
+        <input faims_attribute_name="Mound ID" faims_attribute_type="measure" ref="Mound_ID" faims_style_class="moundID">
+          <label>{Mound_ID}</label>
+        </input>
+        <input faims_attribute_name="Date" faims_attribute_type="measure" ref="Date" faims_read_only="true">
+          <label>{Date}</label>
+        </input>
+        <input faims_attribute_name="Burial Mound author" faims_attribute_type="measure" ref="Burial_Mound_author" faims_read_only="true">
+          <label>{Author}</label>
+        </input>
+        <select1 faims_attribute_name="Type" faims_attribute_type="vocab" ref="Type" faims_style_class="required">
+          <label>{Type}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Source" faims_attribute_type="vocab" ref="Source">
+          <label>{Source}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Description of Mound or Locale" faims_attribute_type="measure" ref="Description_of_Mound_or_Locale">
+          <label>{Description_of_Mound_or_Locale}</label>
+        </input>
+        <select1 type="image" faims_attribute_name="Landuse around Mound" faims_attribute_type="vocab" ref="Landuse_around_Mound" faims_style_class="required" faims_html_description="true">
+          <label>{Landuse_around_Mound}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 type="image" faims_attribute_name="Landuse on top of Mound" faims_attribute_type="vocab" ref="Landuse_on_top_of_Mound" faims_style_class="required" faims_html_description="true">
+          <label>{Landuse_on_top_of_Mound}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Position in the landscape" faims_attribute_type="vocab" ref="Position_in_the_landscape">
+          <label>{Position_in_the_landscape}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Mound prominence" faims_attribute_type="vocab" ref="Mound_prominence" faims_style_class="required">
+          <label>{Mound_prominence}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+        <input faims_attribute_name="Handheld GPS point" faims_attribute_type="measure" ref="Handheld_GPS_point">
+          <label>{Handheld_GPS_point}</label>
+        </input>
+        <input faims_attribute_name="Elevation" faims_attribute_type="measure" ref="Elevation">
+          <label>{Elevation__MASL_}</label>
+        </input>
+        <select1 faims_attribute_name="Facing Direction For Photo" faims_attribute_type="vocab" ref="Facing_Direction_For_Photo" faims_style_class="required">
+          <label>{Facing_Direction_For_Photo}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Notes and Photo ID" faims_attribute_type="measure" ref="Notes_and_Photo_ID">
+          <label>{Notes_and_Photo_ID}</label>
+        </input>
+        <select faims_sync="true" type="camera" faims_attribute_name="Photo" faims_attribute_type="measure" ref="Photo" faims_style_class="required" faims_html_description="true">
+          <label>{Photo}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Photo_Button_1">
+          <label>{Photo}</label>
+        </trigger>
+      </group>
+      <group ref="Additional_GPS">
+        <label>{Additional_GPS}</label>
+        <trigger ref="New_GPS_Location">
+          <label>{New_GPS_Location}</label>
+        </trigger>
+        <select1 ref="GPS_Location_List">
+          <label>{GPS_Location_List}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="Dimensions">
+        <label>{Dimensions}</label>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Height Max" faims_attribute_type="measure" ref="Height_Max" faims_style_class="required">
+              <label>{Height_Max__m_}</label>
+            </input>
+            <input faims_attribute_name="Width Max" faims_attribute_type="measure" ref="Width_Max" faims_style_class="required">
+              <label>{Width_Max__m_}</label>
+            </input>
+            <input faims_attribute_name="Length Max" faims_attribute_type="measure" ref="Length_Max" faims_style_class="required">
+              <label>{Length_Max__m_}</label>
+            </input>
+            <input faims_attribute_name="Diameter Max" faims_attribute_type="measure" ref="Diameter_Max" faims_style_class="required">
+              <label>{Diameter_Max__m_}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Height Min" faims_attribute_type="measure" ref="Height_Min">
+              <label>{Height_Min__m_}</label>
+            </input>
+            <input faims_attribute_name="Width Min" faims_attribute_type="measure" ref="Width_Min">
+              <label>{Width_Min__m_}</label>
+            </input>
+            <input faims_attribute_name="Length Min" faims_attribute_type="measure" ref="Length_Min">
+              <label>{Length_Min__m_}</label>
+            </input>
+            <input faims_attribute_name="Diameter Min" faims_attribute_type="measure" ref="Diameter_Min">
+              <label>{Diameter_Min__m_}</label>
+            </input>
+          </group>
+        </group>
+        <input faims_attribute_name="Additional Dimension" faims_attribute_type="measure" ref="Additional_Dimension">
+          <label>{Additional_Dimension__m_}</label>
+        </input>
+        <input faims_attribute_name="Other Dimension" faims_attribute_type="measure" ref="Other_Dimension">
+          <label>{Other_Dimension}</label>
+        </input>
+        <input faims_attribute_name="Shape Notes" faims_attribute_type="measure" ref="Shape_Notes">
+          <label>{Shape_Notes}</label>
+        </input>
+      </group>
+      <group ref="Material">
+        <label>{Material}</label>
+        <select faims_attribute_name="Associated Feature or Material" faims_attribute_type="vocab" ref="Associated_Feature_or_Material">
+          <label>{Associated_Feature_or_Material}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <input faims_attribute_name="Surface Material Description" faims_attribute_type="measure" ref="Surface_Material_Description">
+          <label>{Surface_Material_Description}</label>
+        </input>
+        <select1 appearance="full" faims_attribute_name="Sample Collected" faims_attribute_type="vocab" ref="Sample_Collected" faims_style_class="required">
+          <label>{Sample_Collected_}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Chronology Estimate" faims_attribute_type="measure" ref="Chronology_Estimate">
+          <label>{Chronology_Estimate}</label>
+        </input>
+        <select faims_sync="true" type="camera" faims_attribute_name="Associated Feature or Material Photo" faims_attribute_type="measure" ref="Associated_Feature_or_Material_Photo">
+          <label>{Associated_Feature_or_Material_Photo}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="Associated_Feature_or_Material_Photo_Button_1">
+          <label>{Associated_Feature_or_Material_Photo}</label>
+        </trigger>
+      </group>
+      <group ref="CRM">
+        <label>{CRM}</label>
+        <select1 faims_attribute_name="Condition" faims_attribute_type="vocab" ref="Condition" faims_style_class="required">
+          <label>{Condition}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Principal Source of Impact" faims_attribute_type="vocab" ref="Principal_Source_of_Impact" faims_style_class="required">
+          <label>{Principal_Source_of_Impact}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="Other Sources of Impact" faims_attribute_type="measure" ref="Other_Sources_of_Impact">
+          <label>{Other_Sources_of_Impact}</label>
+        </input>
+        <select1 faims_attribute_name="Archaeological potential" faims_attribute_type="vocab" ref="Archaeological_potential" faims_style_class="required">
+          <label>{Archaeological_potential}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Most recent damage what" faims_attribute_type="vocab" ref="Most_recent_damage_what" faims_style_class="required">
+          <label>{Most_recent_damage__what_}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <select1 faims_attribute_name="Most recent damage within" faims_attribute_type="vocab" ref="Most_recent_damage_within" faims_style_class="required">
+          <label>{Most_recent_damage__within_}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select1>
+        <input faims_attribute_name="RT Description" faims_attribute_type="measure" ref="RT_Description">
+          <label>{RT_Description}</label>
+        </input>
+        <input faims_attribute_name="Comments and Recommendations" faims_attribute_type="measure" ref="Comments_and_Recommendations">
+          <label>{Comments_and_Recommendations}</label>
+        </input>
+        <select faims_sync="true" type="camera" faims_attribute_name="CRM Photos" faims_attribute_type="measure" ref="CRM_Photos">
+          <label>{CRM_Photos}</label>
+          <item>
+            <label>Options not loaded</label>
+            <value>Options not loaded</value>
+          </item>
+        </select>
+        <trigger ref="CRM_Photos_Button_1">
+          <label>{CRM_Photos}</label>
+        </trigger>
+      </group>
+    </group>
+    <group ref="Shape" faims_archent_type="Shape">
+      <label>{Shape}</label>
+      <group ref="Shape_Note">
+        <label>{Shape_Note}</label>
+        <input faims_attribute_name="Label" faims_attribute_type="measure" ref="Label">
+          <label>{Label}</label>
+        </input>
+        <input faims_attribute_name="Note" faims_attribute_type="measure" ref="Note">
+          <label>{Note}</label>
+        </input>
+      </group>
+    </group>
+    <group ref="GPS_Location" faims_archent_type="GPS Location">
+      <label>{GPS_Location}</label>
+      <group ref="GPS_Location_Information">
+        <label>{GPS_Location_Information}</label>
+        <group ref="Colgroup_1" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="GPS Location Mound ID" faims_attribute_type="measure" ref="GPS_Location_Mound_ID" faims_read_only="true">
+              <label>{GPS_Location_Mound_ID}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="GPS Location ID" faims_attribute_type="measure" ref="GPS_Location_ID" faims_style_class="required">
+              <label>{GPS_Location_ID}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_2" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Latitude" faims_attribute_type="measure" ref="Latitude" faims_style_class="required" faims_read_only="true">
+              <label>{Latitude}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Longitude" faims_attribute_type="measure" ref="Longitude" faims_style_class="required" faims_read_only="true">
+              <label>{Longitude}</label>
+            </input>
+          </group>
+        </group>
+        <group ref="Colgroup_3" faims_style="orientation">
+          <label/>
+          <group ref="Col_1" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Northing" faims_attribute_type="measure" ref="Northing" faims_style_class="required" faims_read_only="true">
+              <label>{Northing}</label>
+            </input>
+          </group>
+          <group ref="Col_2" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Easting" faims_attribute_type="measure" ref="Easting" faims_style_class="required" faims_read_only="true">
+              <label>{Easting}</label>
+            </input>
+          </group>
+          <group ref="Col_3" faims_style="even">
+            <label/>
+            <input faims_attribute_name="Accuracy" faims_attribute_type="measure" ref="Accuracy" faims_style_class="required" faims_read_only="true">
+              <label>{Accuracy}</label>
+            </input>
+          </group>
+        </group>
+        <trigger ref="Take_From_GPS_1">
+          <label>{Take_From_GPS}</label>
+        </trigger>
+      </group>
+    </group>
+  </h:body>
+</h:html>
