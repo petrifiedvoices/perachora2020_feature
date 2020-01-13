@@ -442,6 +442,7 @@ DATA_REFS.add("Burial_Mound/Material/Sample_Collected");
 DATA_REFS.add("Burial_Mound/Material/Chronology_Estimate");
 DATA_REFS.add("Burial_Mound/Material/Associated_Feature_or_Material_Photo");
 DATA_REFS.add("Burial_Mound/CRM/Condition");
+DATA_REFS.add("Burial_Mound/CRM/Principal_Source_of_Impact");
 DATA_REFS.add("Burial_Mound/CRM/Other_Sources_of_Impact");
 DATA_REFS.add("Burial_Mound/CRM/Archaeological_potential");
 DATA_REFS.add("Burial_Mound/CRM/Most_recent_damage_what");
